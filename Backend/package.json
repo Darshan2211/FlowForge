@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "mongoose": "^9.11.2",
+    "node": "^26.12.0"
+  },
+  "type": "module"
+}
