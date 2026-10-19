@@ -34,9 +34,22 @@ Vite proxies `/api` to `http://localhost:5000` (see `vite.config.js`). Change th
 ### Sample data
 Import the JSON files from `sample-data/` into MongoDB (Compass: Add Data, Import JSON), in this order: `users`, `teams`, `memberships`, `workitems`, `activities`, `comments`.
 
-| Email | Password | Teams and roles |
+Demo Login Credentials
+
+Use the demo user's name as the email prefix.
+
+Email: username@gmail.com (vijay@gmail.com)
+
+Password: username123 (vijay123)
+
+| Email | Teams | Roles |
 |---|---|---|
-| FILL IN | FILL IN | FILL IN |
+| vijay | operation, payment | approver, member |
+| sameer | operation | member |
+| surya | operation, product & design | member, approver |
+| hrithik | payment, product & desing | approver, member |
+| vishal | payment | member |
+| harhsit | product & design | member |
 
 Use accounts with different roles to test permissions (a member cannot approve; a user outside a team cannot see its items).
 
