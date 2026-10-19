@@ -25,7 +25,7 @@ PORT=3000
 
 ### Frontend
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev               # http://localhost:5173
 ```
